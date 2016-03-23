@@ -1,0 +1,11 @@
+.container {
+  position: relative; }
+  .container .team-info {
+    /*position: absolute;*/ }
+  .container .brief-intro {
+    position: absolute;
+    left: 240px;
+    right: 160px; }
+  .container .teammates-info {
+    position: absolute;
+    right: 20px; }

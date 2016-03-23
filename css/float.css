@@ -1,0 +1,9 @@
+.container .team-info {
+  float: left; }
+
+.container .brief-intro {
+  margin-left: 220px;
+  margin-right: 140px; }
+
+.container .teammates-info {
+  float: right; }

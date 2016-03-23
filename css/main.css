@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+.container,
+.container .team-info,
+.container .brief-intro,
+.container .teammates-info {
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #999;
+  background: #fff;
+}
+
+.container {
+  overflow: hidden;
+  width: 100%;
+  min-width: 540px;
+  background: #eee;
+}
+
+.container .team-info {
+  float: left;
+  width: 200px;
+}
+
+.container .team-info img {
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.container .teammates-info {
+  float: right;
+  width: 120px;
+}
+
+.container .teammates-info img {
+  width: 80px;
+  height: 80px;
+}
+
+.container .teammates-info img + img {
+  margin-top: 18px;
+}
+
+.container .brief-intro {
+  margin-left: 220px;
+  margin-right: 140px;
+}
